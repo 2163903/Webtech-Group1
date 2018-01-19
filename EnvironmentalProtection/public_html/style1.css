@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+#header {
+    margin: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    color: white;
+    transition: 1s;
+}
+
+#content {
+    padding-top: 4%;
+    padding-left: 1%;
+}
+
+#header:hover {
+    background-color: rgba(0,0,0,1);
+    transition: 1s;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    padding: 1%;
+    trasition: 1s;
+}
+
+li:hover {
+    background-color: red;
+    transition: 1s;
+}
