@@ -26,6 +26,7 @@ header:hover {
 #menu {
     padding: 1%;
     transition: 1s;
+    color: white;
 }
 
 #menu:hover {
@@ -40,11 +41,11 @@ img:not(#logo) {
 }
 
 #logo {
-    height: 2%;
+    height: 20px;
     float: left;
 }
 
-a:not(#menu-element) {
+a {
     text-decoration: none;
     color: black;
 }
