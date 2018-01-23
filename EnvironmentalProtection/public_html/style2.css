@@ -3,24 +3,3 @@ body {
     padding: 0;
     font-family: verdana;
 }
-
-ul {
-    padding: 1%;
-    margin: 0;
-    list-style-type: none;
-    position: fixed;
-    background-color: rgba(0,0,0,1);
-    top: 0;
-    bottom: 0;
-    color: white;
-}
-
-li {
-    padding: 5%;
-    transition: 1s;
-}
-
-li:hover {
-    background-color: red;
-    transition: 1s;
-}

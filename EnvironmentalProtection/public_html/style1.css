@@ -4,13 +4,12 @@ body {
     font-family: verdana;
 }
 
-#header {
-    margin: 0;
+header {
+    padding: 1%;
     position: fixed;
     background-color: rgba(0,0,0,0.5);
     left: 0;
     right: 0;
-    color: white;
     transition: 1s;
 }
 
@@ -19,19 +18,41 @@ body {
     padding-left: 1%;
 }
 
-#header:hover {
+header:hover {
     background-color: rgba(0,0,0,1);
     transition: 1s;
 }
 
-li {
-    list-style-type: none;
-    float: left;
+#menu {
     padding: 1%;
-    trasition: 1s;
+    transition: 1s;
 }
 
-li:hover {
-    background-color: red;
+#menu:hover {
+    background-color: #990033;
     transition: 1s;
+}
+
+img:not(#logo) {
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+#logo {
+    height: 2%;
+    float: left;
+}
+
+a:not(#menu-element) {
+    text-decoration: none;
+    color: black;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    width: 50%;
 }
