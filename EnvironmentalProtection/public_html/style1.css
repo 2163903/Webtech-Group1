@@ -34,12 +34,6 @@ header:hover {
     transition: 1s;
 }
 
-img:not(#logo) {
-    height: 200px;
-    float: left;
-    padding-right: 10px;
-}
-
 #logo {
     height: 20px;
     float: left;
@@ -56,4 +50,49 @@ td {
 
 table {
     width: 50%;
+}
+
+#container {
+  position: relative;
+  width: 50%;
+}
+
+img:not(#logo) {
+  width: 300px;
+  height: auto;
+}
+
+#overlay {
+    position: absolute;
+    bottom: 100%;
+    background-color: #990033;
+    overflow: hidden;
+    width: 300px;
+    height: 0;
+    transition: .5s;
+}
+
+#container:hover #overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+#text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#textOverlay {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
