@@ -2,3 +2,11 @@ advocacies
 	environemtal protection
 	gender equality
 	animal welfare
+	
+https://fonts.google.com/?selection.family=Butcherman|Gloria+Hallelujah|Love+Ya+Like+A+Sister|Monoton|Rock+Salt
+<link href="https://fonts.googleapis.com/css?family=Butcherman|Gloria+Hallelujah|Love+Ya+Like+A+Sister|Monoton|Rock+Salt" rel="stylesheet">
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Butcherman', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
